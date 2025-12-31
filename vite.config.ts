@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // SET BASE URL FOR GITHUB PAGES (Must match your repo name /repo-name/)
+      base: '/Somnium-Sleep-App/', 
       server: {
         port: 3000,
         host: '0.0.0.0',
