@@ -92,7 +92,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
              <p className="text-[10px] uppercase tracking-widest text-zinc-600 pl-2">Connect</p>
              
              <a 
-                href="https://dovvnloading.github.io/" 
+                href="https://matt-wesney.github.io/website/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-white/20 transition-all group"
